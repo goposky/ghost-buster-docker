@@ -1,2 +1,4 @@
 content/
 static/
+post.hbs
+.DS_Store
