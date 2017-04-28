@@ -2,18 +2,19 @@ version: '2.1'
 
 services:
   ghost:
-    image: ghost:0.11.7
+    image: ghost:0.11.8
     volumes:
       - ./content:/var/lib/ghost
     ports:
       - 2368:2368
 
   buster:
-    image: stefanscherer/buster
+    image: goposky/buster
     command: /buster.sh
     volumes:
       - ./static:/static
       - ./buster.sh:/buster.sh
+      - ./header.html:/header.html
 
   preview:
     image: nginx
