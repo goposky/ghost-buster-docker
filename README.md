@@ -1,5 +1,7 @@
 # ghost-buster-docker
 
+*This is forked from https://github.com/StefanScherer/ghost-buster-docker*
+
 Run your Ghost blog in a Docker container and publish it with Buster to static
 GitHub pages.
 
