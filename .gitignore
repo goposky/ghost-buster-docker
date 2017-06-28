@@ -1,4 +1,5 @@
 content/
 static/
+drafts/
 post.hbs
 .DS_Store
